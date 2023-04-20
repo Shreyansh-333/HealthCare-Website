@@ -1,0 +1,36 @@
+section {
+  width: 100%;
+}
+.search-container {
+  align-items: center;
+  margin: 20px auto;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background-color: black;
+  width: 50%;
+}
+
+.heading {
+  color: white;
+}
+
+input {
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+
+.form {
+  /* display: inline-block; */
+
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+#search-button {
+  display: inline-block;
+}
+
+.btnn {
+  display: inline-block;
+  align-self: flex-start;
+}
