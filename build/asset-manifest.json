@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.3268ecf1.css",
-    "main.js": "/static/js/main.5a9be8da.js",
-    "static/media/image-2.jpg": "/static/media/image-2.35f5c78b95afaa04cc29.jpg",
+    "main.css": "/static/css/main.eeb9497c.css",
+    "main.js": "/static/js/main.e7605d8a.js",
+    "static/media/DrSachinMitaal.png": "/static/media/DrSachinMitaal.22bac946e0be85780258.png",
+    "static/media/specialitySample.jpg": "/static/media/specialitySample.778a146a9fd4d5c766f8.jpg",
     "index.html": "/index.html",
-    "main.3268ecf1.css.map": "/static/css/main.3268ecf1.css.map",
-    "main.5a9be8da.js.map": "/static/js/main.5a9be8da.js.map"
+    "main.eeb9497c.css.map": "/static/css/main.eeb9497c.css.map",
+    "main.e7605d8a.js.map": "/static/js/main.e7605d8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.3268ecf1.css",
-    "static/js/main.5a9be8da.js"
+    "static/css/main.eeb9497c.css",
+    "static/js/main.e7605d8a.js"
   ]
 }

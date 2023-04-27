@@ -74,21 +74,25 @@ class Navbar extends Component {
               className={this.state.clicked ? "#navbarid active" : "#navbarid"}
             >
               <li>
-                <a href="index.html">Home</a>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/doctors">Doctors</a>
+              </li>
+              <li>
+                <a href="/hospitals">Hospitals</a>
+              </li>
+              <li>
+                <a href="/specialities">Specialities</a>
+              </li>
+              <li>
+                <a href="/services">Services</a>
               </li>
               <li>
                 <a href="/aboutus">About</a>
               </li>
               <li>
-                <a href="index.html">Shop</a>
-              </li>
-              <li>
-                <a href="index.html">Blog</a>
-              </li>
-              <li>
-                <a className="active" href="index.html">
-                  Contact
-                </a>
+                <a className="active" href="/contactus">Contact Us</a>
               </li>
               <li>
                 <a href="index.html"></a>

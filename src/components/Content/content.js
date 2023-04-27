@@ -1,30 +1,47 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
-import img1 from "./image-2.jpg";
-
 const Content = () => {
+  const mystyle = {
+    textAlign: "left",
+  };
+  const mystyle1 = {
+    borderRadius: "5%",
+  };
   return (
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
-          <Col>
-            <h1>Welcome to our website!</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+          <Col style={mystyle}>
+            <h1>What makes us the best:</h1>
+            <ul>
+              <li>
+                ★ Affodable advance medical facilities and infrastructure.
+              </li>
+              <li>
+                ★ Availability of a wide range of medical specialties and
+                treatments.
+              </li>
+              <li>
+                ★ Availability of alternative treatments such as Ayurveda and
+                Yoga.
+              </li>
+              <li>
+                ★ Opportunities for post-treatment recovery and relaxation in a
+                culturally rich environment.
+              </li>
+              <li>★ Personalized care and attention.</li>
+              <li>
+                ★ Strong reputation and track record of successful medical
+                outcomes.
+              </li>
+            </ul>
             <Button variant="success" onClick={() => console.log("Connect")}>
               Let's Connect
             </Button>
           </Col>
           <Col>
-            <img src={img1} alt="Image" />
+            <img style={mystyle1} src="Homepage.jpg" alt="Image" />
           </Col>
         </Row>
       </Container>

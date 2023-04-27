@@ -47,7 +47,7 @@ const Carousel = () => {
         <SwiperSlide>
           <Cards
             data={{
-              imgSrc: "http://localhost:3000/image-2.jpg",
+              imgSrc: "image-2.jpg",
               price: "Value",
               title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             }}
@@ -56,7 +56,7 @@ const Carousel = () => {
         <SwiperSlide>
           <Cards
             data={{
-              imgSrc: "http://localhost:3000/image-3.jpg",
+              imgSrc: "image-3.jpg",
               price: "Value",
               title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             }}
@@ -66,7 +66,7 @@ const Carousel = () => {
         <SwiperSlide>
           <Cards
             data={{
-              imgSrc: "http://localhost:3000/image-4.jpg",
+              imgSrc: "image-4.jpg",
               price: "Value",
               title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             }}
@@ -75,7 +75,7 @@ const Carousel = () => {
         <SwiperSlide>
           <Cards
             data={{
-              imgSrc: "http://localhost:3000/image-5.jpg",
+              imgSrc: "image-5.jpg",
               price: "Value",
               title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             }}
@@ -84,7 +84,7 @@ const Carousel = () => {
         <SwiperSlide>
           <Cards
             data={{
-              imgSrc: "http://localhost:3000/image-2.jpg",
+              imgSrc: "image-2.jpg",
               price: "Value",
               title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             }}
@@ -93,7 +93,7 @@ const Carousel = () => {
         <SwiperSlide>
           <Cards
             data={{
-              imgSrc: "http://localhost:3000/image-3.jpg",
+              imgSrc: "image-3.jpg",
               price: "Value",
               title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             }}
@@ -102,7 +102,7 @@ const Carousel = () => {
         <SwiperSlide>
           <Cards
             data={{
-              imgSrc: "http://localhost:3000/image-4.jpg",
+              imgSrc: "image-4.jpg",
               price: "Value",
               title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             }}
@@ -111,7 +111,7 @@ const Carousel = () => {
         <SwiperSlide>
           <Cards
             data={{
-              imgSrc: "http://localhost:3000/image-5.jpg",
+              imgSrc: "image-5.jpg",
               price: "Value",
               title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             }}
