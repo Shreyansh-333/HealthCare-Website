@@ -18,7 +18,7 @@ import DocterPage from "./components/DoctorPage/doctorpage";
 import SpecialityPage from "./components/SpecialityPage/specialityPage";
 import PartnerHospitals from "./components/PartnerHospitals/partnerHosp";
 import ContactUs from "./components/ContactUs/contactUs";
-
+import HospPage from "./components/HospPage/hospPage";
 
 function App() {
   const slides = [
@@ -54,6 +54,7 @@ function App() {
         {/* <Route path="/doctors" element={<Doctors />}>
         <Route path="/docters/docterPage" element={<Docto />} */}
         <Route path="/doctors/docterPage/:id" element={<DocterPage />} />
+        <Route path="/hospitals/hospPage/:id" element={<HospPage />} />
         <Route path="/doctors" element={<Doctors />}></Route>
         <Route
           path="/specialities/specialityPage/:id"

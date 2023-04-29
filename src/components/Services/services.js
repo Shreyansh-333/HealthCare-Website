@@ -7,7 +7,7 @@ import ServicesContent from "../ServicesContent/servicesContent";
 const Services = () => {
   return (
     <div>
-      <SearchBar />
+      {/* <SearchBar /> */}
       <ServicesContent />
       <OurTeam />
     </div>

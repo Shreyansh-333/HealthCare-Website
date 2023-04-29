@@ -15,18 +15,26 @@ const ContactUs = () => {
     padding: "20px",
   };
 
+  const inputcolstyle = {
+    // margin: "10px auto",
+    margin: "2.5% 12.5% 2.5% 2%",
+  };
+
   const rowstyle = {
     margin: "10px auto",
     // padding: "20px",
   };
 
   const mapstyle = {
-    border: "1px solid black",
+    // height: "80%",
+    // border: "1px solid e1f1ec",
     borderRadius: "10px",
   };
 
   const inputboxstyle = {
-    border: "1px solid black",
+    border: "none",
+    // borderBottom: "3px solid ",
+    backgroundColor: "#e1f1ec",
   };
 
   const [name, setName] = useState("");
@@ -87,20 +95,20 @@ const ContactUs = () => {
             <img style={mapstyle} src="map-navigation.jpg"></img>
             <br />
             <li>
-              #419-424, 4th Floor, JMD Megapolis, Sohna Road, Sector 48,
-              Gurugram-122018, Haryana, India
+              #Room no., Floor, Building Name, Road, Sector No., City, Pin,
+              State, Country
             </li>
             <br />
             <li>
-              <b>Phone: </b> +91-9654742998
+              <b>Phone: </b> +91-9999999999
             </li>
             <br />
             <li>
-              <b>Email: </b>info@medsurgeindia.com
+              <b>Email: </b>sampleusername@email.com
             </li>
             <br />
             <li>
-              <b>Website: </b>www.medsurgeindia.com
+              <b>Website: </b>www.samplewebsite.com
             </li>
             <br />
             <li>
@@ -116,29 +124,28 @@ const ContactUs = () => {
               >
                 {/*when user submit the form , handleSubmit()
 		function will be called .*/}
-                <h3> Send Us a Message </h3>
-                <h6>
+                <h3 style={inputcolstyle}> Send Us a Message </h3>
+                <h6 style={inputcolstyle}>
                   In case you had any questions or you needed any information
                   about our activities feel free to send us an email. We will
                   respond quickly.
                 </h6>
                 <Row style={rowstyle}>
-                  <label>Name:</label>
-                  <br />
-                  <input
-                    style={inputboxstyle}
-                    type="text"
-                    value={name}
-                    required
-                    onChange={(e) => {
-                      handleNameChange(e);
-                    }}
-                  />
-                  <br />
-                </Row>
-                <Row style={rowstyle}>
                   <Col>
-                    <label>Age:</label>
+                    <label> Name:</label>
+                    <br />
+                    <input
+                      style={inputboxstyle}
+                      type="name"
+                      value={name}
+                      required
+                      onChange={(e) => {
+                        handleNameChange(e);
+                      }}
+                    />
+                  </Col>
+                  <Col>
+                    <label> Age:</label>
                     <br />
                     <input
                       style={inputboxstyle}
@@ -150,8 +157,10 @@ const ContactUs = () => {
                       }}
                     />
                   </Col>
+                </Row>
+                <Row style={rowstyle}>
                   <Col>
-                    <label>Phone No.:</label>
+                    <label> Phone No.:</label>
                     <br />
                     <input
                       style={inputboxstyle}
@@ -163,41 +172,40 @@ const ContactUs = () => {
                       }}
                     />
                   </Col>
-                </Row>
-                <Row style={rowstyle}>
-                  <label>Email Address:</label>
-                  <input
-                    style={inputboxstyle}
-                    type="email"
-                    value={email}
-                    required
-                    onChange={(e) => {
-                      handleEmailChange(e);
-                    }}
-                  />
+                  <Col>
+                    <label>Email Address:</label>
+                    <input
+                      style={inputboxstyle}
+                      type="email"
+                      value={email}
+                      required
+                      onChange={(e) => {
+                        handleEmailChange(e);
+                      }}
+                    />
+                  </Col>
                 </Row>
 
-                <Row style={rowstyle}>
+                <Row style={inputcolstyle}>
                   <label>Subject:</label>
+                  <br />
                   <input
                     style={inputboxstyle}
                     type="text"
                     value={subject}
-                    aria-rowspan={3}
-                    aria-colcount={4}
                     required
                     onChange={(e) => {
                       handleSubjectChange(e);
                     }}
                   />
                 </Row>
-                <Row style={rowstyle}>
+                <Row style={inputcolstyle}>
                   <label>Write here:</label>
                   <textarea
                     style={inputboxstyle}
                     value={content}
                     cols="30"
-                    rows="10"
+                    rows="8"
                     required
                     onChange={(e) => {
                       handleContentChange(e);
@@ -205,7 +213,8 @@ const ContactUs = () => {
                   ></textarea>
                 </Row>
 
-                <Row style={rowstyle}>
+                <Row style={inputcolstyle}>
+                  <br/>
                   <Button type="submit" variant="success" value="Submit">
                     Submit
                   </Button>

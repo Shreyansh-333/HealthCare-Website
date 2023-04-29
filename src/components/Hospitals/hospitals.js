@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import SpCards from "../SpCard/spCard";
+import HospCard from "../HospCard/hospCard";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
@@ -9,120 +9,150 @@ const Hospitals = () => {
     <Container>
         <hr></hr>
       <Row>
-        <Col>
-          <SpCards
+      <Col>
+          <HospCard
             data={{
-              imgSrc: "image-2.jpg",
-              price: "Name",
-              title: "Specialities in this this field",
+              imgSrc: "hospitalbuilding.jpg",
+              price: "First Choice speciality Hospital",
+              title: "New Delhi",
             }}
           />
         </Col>
         <Col>
-          <SpCards
+          <HospCard
             data={{
-              imgSrc: "image-2.jpg",
-              price: "Beach",
-              title: "Boating and rafting facilities",
+              imgSrc: "hospitalbuilding.jpg",
+              price: "First Choice speciality Hospital",
+              title: "New Delhi",
             }}
           />
         </Col>
         <Col>
-          <SpCards
+          <HospCard
             data={{
-              imgSrc: "image-2.jpg",
-              price: "Beach",
-              title: "Boating and rafting facilities",
+              imgSrc: "hospitalbuilding.jpg",
+              price: "First Choice speciality Hospital",
+              title: "New Delhi",
             }}
           />
         </Col>
         <Col>
-          <SpCards
+          <HospCard
             data={{
-              imgSrc: "image-2.jpg",
-              price: "Beach",
-              title: "Boating and rafting facilities",
+              imgSrc: "hospitalbuilding.jpg",
+              price: "First Choice speciality Hospital",
+              title: "New Delhi",
             }}
           />
         </Col>
+        <Col>
+          <HospCard
+            data={{
+              imgSrc: "hospitalbuilding.jpg",
+              price: "First Choice speciality Hospital",
+              title: "New Delhi",
+            }}
+          />
+        </Col>
+        
       </Row>
       <hr></hr>
       <Row>
-        <Col>
-          <SpCards
+      <Col>
+          <HospCard
             data={{
-              imgSrc: "image-2.jpg",
-              price: "Beach",
-              title: "Boating and rafting facilities",
+              imgSrc: "hospitalbuilding.jpg",
+              price: "First Choice speciality Hospital",
+              title: "New Delhi",
             }}
           />
         </Col>
         <Col>
-          <SpCards
+          <HospCard
             data={{
-              imgSrc: "image-2.jpg",
-              price: "Beach",
-              title: "Boating and rafting facilities",
+              imgSrc: "hospitalbuilding.jpg",
+              price: "First Choice speciality Hospital",
+              title: "New Delhi",
             }}
           />
         </Col>
         <Col>
-          <SpCards
+          <HospCard
             data={{
-              imgSrc: "image-2.jpg",
-              price: "Beach",
-              title: "Boating and rafting facilities",
+              imgSrc: "hospitalbuilding.jpg",
+              price: "First Choice speciality Hospital",
+              title: "New Delhi",
             }}
           />
         </Col>
         <Col>
-          <SpCards
+          <HospCard
             data={{
-              imgSrc: "image-2.jpg",
-              price: "Beach",
-              title: "Boating and rafting facilities",
+              imgSrc: "hospitalbuilding.jpg",
+              price: "First Choice speciality Hospital",
+              title: "New Delhi",
             }}
           />
         </Col>
+        <Col>
+          <HospCard
+            data={{
+              imgSrc: "hospitalbuilding.jpg",
+              price: "First Choice speciality Hospital",
+              title: "New Delhi",
+            }}
+          />
+        </Col>
+        
       </Row>
       <hr></hr>
       <Row>
-        <Col>
-          <SpCards
+      <Col>
+          <HospCard
             data={{
-              imgSrc: "image-2.jpg",
-              price: "Beach",
-              title: "Boating and rafting facilities",
+              imgSrc: "hospitalbuilding.jpg",
+              price: "First Choice speciality Hospital",
+              title: "New Delhi",
             }}
           />
         </Col>
         <Col>
-          <SpCards
+          <HospCard
             data={{
-              imgSrc: "image-2.jpg",
-              price: "Beach",
-              title: "Boating and rafting facilities",
+              imgSrc: "hospitalbuilding.jpg",
+              price: "First Choice speciality Hospital",
+              title: "New Delhi",
             }}
           />
         </Col>
         <Col>
-          <SpCards
+          <HospCard
             data={{
-              imgSrc: "image-2.jpg",
-              price: "Beach",
-              title: "Boating and rafting facilities",
+              imgSrc: "hospitalbuilding.jpg",
+              price: "First Choice speciality Hospital",
+              title: "New Delhi",
             }}
           />
         </Col>
         <Col>
-          <SpCards
+          <HospCard
             data={{
-              imgSrc: "image-2.jpg",
-              price: "Beach",
-              title: "Boating and rafting facilities",
+              imgSrc: "hospitalbuilding.jpg",
+              price: "First Choice speciality Hospital",
+              title: "New Delhi",
             }}
           />
         </Col>
+        <Col>
+          <HospCard
+            data={{
+              imgSrc: "hospitalbuilding.jpg",
+              price: "First Choice speciality Hospital",
+              title: "New Delhi",
+            }}
+          />
+        </Col>
+        
       </Row>
       <hr></hr>
     </Container>
